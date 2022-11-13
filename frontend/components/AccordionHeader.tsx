@@ -10,7 +10,7 @@ export const AccordionHeader: FC<Props> = (props: Props) => {
     if (props.slot.note && props.slot.note.length > 0) {
         return (
             <strong>
-                VEŘEJNÁ UDÁLOST
+                PUBLIC EVENT
                 <br/>
             </strong>
         )
