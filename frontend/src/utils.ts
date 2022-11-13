@@ -39,13 +39,13 @@ export function slotsToDuration(slotFrom: number, slotTo: number): string {
 }
 
 const days = [
-    "ne",
-    "po",
-    "út",
-    "st",
-    "čt",
-    "pá",
-    "so",
+    "Zo",
+    "Ma",
+    "Di",
+    "Wo",
+    "Do",
+    "Vr",
+    "Za",
 ]
 
 export function getDayInWeek(date: string): string {
@@ -54,13 +54,13 @@ export function getDayInWeek(date: string): string {
 }
 
 const fullDays = [
-    'neděle',
-    'pondělí',
-    'úterý',
-    'středa',
-    'čtvrtek',
-    'pátek',
-    'sobota',
+    'Zondag',
+    'Maandag',
+    'Dinsdag',
+    'Woensdag',
+    'Donderdag',
+    'Vrijdag',
+    'Saturday',
 ]
 
 export function getFullDayInWeek(date: string): string {
